@@ -1,5 +1,60 @@
 {
     "Areas": [
+		{ 	"AreaName": "Cluster1Geyser1", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 13757.646484, 0, 9168.047852 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 10,
+				"EffectDuration": 180
+				}
+		},
+		{ 	"AreaName": "Cluster1Geyser2", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 13869.593750, 0, 9182.760742 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 10,
+				"EffectDuration": 90
+				}
+		},
+		{ 	"AreaName": "Cluster1Geyser3", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 13918.814453, 0, 9036.811523 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 10,
+				"EffectDuration": 90
+				}
+		},
+		{ 	"AreaName": "Cluster1Area1A", 
+			"Type": "HotSpringArea", 
+			"TriggerType": "HotSpringTrigger",
+			"Data": { 
+				"Pos": [ 13918.814453, 0, 9036.811523 ],
+				"Radius": 12,
+				"PosHeight": 5,
+				"NegHeight": 5
+				}
+				},
+		{ 	"AreaName": "Cluster1Area2A", 
+			"Type": "HotSpringArea", 
+			"TriggerType": "HotSpringTrigger",
+			"Data": { 
+				"Pos": [ 14326.811523, 0, 3757.956055 ],
+				"Radius": 15,
+				"PosHeight": 5,
+				"NegHeight": 5
+		},
         { 	"AreaName": "Area01", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
