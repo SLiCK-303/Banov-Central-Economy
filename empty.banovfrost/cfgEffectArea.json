@@ -54,6 +54,7 @@
 				"Radius": 15,
 				"PosHeight": 5,
 				"NegHeight": 5
+		}		
 		},
         { 	"AreaName": "Area01", 
 			"Type": "ContaminatedArea_Static", 
