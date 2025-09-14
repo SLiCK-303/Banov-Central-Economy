@@ -24,36 +24,28 @@
 				"EffectDuration": 90
 				}
 		},
-		{ 	"AreaName": "Cluster1Geyser3", 
+		{ 	"AreaName": "BanovLand", 
 			"Type": "GeyserArea", 
 			"TriggerType": "GeyserTrigger",
 			"Data": { 
-				"Pos": [ 13918.814453, 0, 9036.811523 ],
+				"Pos": [ 7043.138184, 0, 12006.588867 ],
 				"Radius": 2,
 				"PosHeight": 20,
 				"NegHeight": 5,
-				"EffectInterval": 120,
+				"EffectInterval": 300,
 				"EffectDuration": 90
 				}
 		},
-		{ 	"AreaName": "Cluster1Area1A", 
-			"Type": "HotSpringArea", 
-			"TriggerType": "HotSpringTrigger",
+				{ 	"AreaName": "BanovLand2", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
 			"Data": { 
-				"Pos": [ 13918.814453, 0, 9036.811523 ],
-				"Radius": 12,
-				"PosHeight": 5,
-				"NegHeight": 5
-				}
-				},
-		{ 	"AreaName": "Cluster1Area2A", 
-			"Type": "HotSpringArea", 
-			"TriggerType": "HotSpringTrigger",
-			"Data": { 
-				"Pos": [ 14326.811523, 0, 3757.956055 ],
-				"Radius": 15,
-				"PosHeight": 5,
-				"NegHeight": 5
+				"Pos": [ 7025.555176, 0, 12030.474609 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 300,
+				"EffectDuration": 90
 		}		
 		},
         { 	"AreaName": "Area01", 
