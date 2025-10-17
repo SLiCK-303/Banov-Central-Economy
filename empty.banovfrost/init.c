@@ -1,16 +1,9 @@
-//Vanilla BanovFrost Init.c
-// Thank you for using my map
 void main()
 {
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
 	if ( ce )
 		ce.InitOffline();
-
-//Loot spawn Creator
-//GetCEApi().ExportProxyData(vector.Zero, 100000); //Loot
-//GetCEApi().ExportClusterData(); //Fruit	
-
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
@@ -95,9 +88,6 @@ class CustomMission: MissionServer
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "SteakKnife" );
 			SetLowHealth( itemEnt );
 			
-			itemEnt = itemClothing.GetInventory().CreateInInventory( "Apple" );
-			SetLowHealth( itemEnt );
-			
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
@@ -111,8 +101,8 @@ class CustomMission: MissionServer
 		
 		itemClothing = player.FindAttachmentBySlotName( "Feet" );		
 		
-		player.GetStatWater().Set( 1000 );
-		player.GetStatEnergy().Set( 1300 );
+		player.GetStatWater().Set( 750 );
+		player.GetStatEnergy().Set( 1000 );
 		
 		player.SetTemporaryResistanceToAgent(eAgents.INFLUENZA, 900);
 	}
