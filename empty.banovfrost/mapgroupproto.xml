@@ -14343,7 +14343,7 @@
 						<point pos="-1.406128 -0.382006 -0.481567" range="0.203125" height="0.507813" />
 				</container>
 		</group>
-		<group name="Land_Mil_ControlTower" lootmax="10">
+		<group name="Mil_ControlTower_East" lootmax="10">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
@@ -21557,4 +21557,5 @@
 						<point pos="2.946778 -1.439209 0.272705" range="1.008301" height="1.597408" />
 				</container>
 		</group>
+
 </prototype>
