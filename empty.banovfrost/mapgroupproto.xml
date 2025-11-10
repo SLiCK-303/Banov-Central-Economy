@@ -14065,7 +14065,7 @@
 						<point pos="-4.802368 -1.856922 -0.578615" range="0.329033" height="1.024933" flags="32" />
 				</container>
 		</group>
-		group name="YRTSK_UFO_Crash" lootmax="15">
+		<group name="YRTSK_UFO_Crash" lootmax="15">
 				<usage name="Alien"/>
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="15">
@@ -21544,4 +21544,5 @@
 		</group>
 
 </prototype>
+
 
