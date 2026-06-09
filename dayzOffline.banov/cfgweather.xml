@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<weather reset="0" enable="1">
+
+    <!-- SUMMER EUROPEAN WEATHER -->
+
+    <overcast>
+        <current actual="0.15" time="120" duration="900"/>
+        <limits min="0.0" max="0.65"/>
+        <timelimits min="1800" max="3600"/>
+        <changelimits min="0.0" max="0.18"/>
+    </overcast>
+
+    <fog>
+        <current actual="0.02" time="120" duration="300"/>
+        <limits min="0.0" max="0.18"/>
+        <timelimits min="300" max="1800"/>
+        <changelimits min="0.0" max="0.06"/>
+    </fog>
+
+    <rain>
+        <current actual="0.0" time="120" duration="300"/>
+        <limits min="0.0" max="0.55"/>
+        <timelimits min="600" max="2400"/>
+        <changelimits min="0.0" max="0.15"/>
+        <thresholds min="0.55" max="0.90" end="120"/>
+    </rain>
+
+    <windMagnitude>
+        <current actual="2.0" time="120" duration="300"/>
+        <limit min="0.0" max="12.0"/>
+        <timelimits min="600" max="1800"/>
+        <changelimits min="0.0" max="0.05"/>
+    </windMagnitude>
+
+    <windDirection>
+        <current actual="0.0" time="120" duration="240"/>
+        <limit min="-3.5" max="3.5"/>
+        <timelimits min="600" max="1200"/>
+        <changelimits min="-0.5" max="0.5"/>
+    </windDirection>
+
+    <snowfall>
+        <current actual="0.0" time="0.0" duration="300"/>
+        <limit min="0.0" max="0.0"/>
+        <timelimits min="900" max="1800"/>
+        <changelimits min="0.0" max="0.0"/>
+        <thresholds min="1.0" max="1.0" end="600"/>
+    </snowfall>
+
+    <!-- RARE BUT STRONG SUMMER STORMS -->
+    <storm density="0.65" threshold="0.75" timeout="1800"/>
+
+</weather>
