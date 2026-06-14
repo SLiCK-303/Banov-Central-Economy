@@ -845,8 +845,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban1_police"/>
-            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban2_police"/>
+            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban1_police_DE"/>
+            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban2_police_DE"/>
             <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed02_aban1_Police_DE"/>
             <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed02_aban2_Police_DE"/>
         </children>
