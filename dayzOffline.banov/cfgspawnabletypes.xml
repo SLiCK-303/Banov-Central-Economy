@@ -1140,8 +1140,8 @@
 	<type name="Captain_Alien">
 		<cargo preset="foodCity" />
 		<cargo chance="1.0">
-			<item name="CatFoodCan" chance="1.0" />
-			<item name="DogFoodCan" chance="1.0" />
+			<item name="CatFoodCan" chance="0.20" />
+			<item name="DogFoodCan" chance="0.20" />
 		</cargo>
 	</type>
 	<!--ARMY-->

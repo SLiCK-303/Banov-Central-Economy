@@ -12,6 +12,19 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
+	<type name="YRTSK_Banov_Pod">
+		<nominal>40</nominal>
+		<min>26</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="alienpod"/>
+		<usage name="Military"/>
+		<tag name="floor" />
+   </type>
     <type name="ACOGOptic_6x">
         <nominal>5</nominal>
         <lifetime>14400</lifetime>
@@ -14717,10 +14730,10 @@
         <category name="food"/>
     </type>
     <type name="PaydayMask_Chains">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14728,10 +14741,10 @@
         <category name="clothes"/>
     </type>
     <type name="PaydayMask_Dallas">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14739,10 +14752,10 @@
         <category name="clothes"/>
     </type>
     <type name="PaydayMask_Hoxton">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14750,10 +14763,10 @@
         <category name="clothes"/>
     </type>
     <type name="PaydayMask_Wolf">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

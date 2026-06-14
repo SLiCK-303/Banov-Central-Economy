@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="SingularityCannon"> //Don't edit! 
         <nominal>0</nominal>            
@@ -112,30 +113,24 @@
         <usage name="Office"/>
     </type>
 	<type name="Blue_Key"> /Don't edit!
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-        <category name="Warlords"/>
-        <usage name="Alien"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
     </type>
 	<type name="Red_Key"> /Don't edit!
-        <nominal>5</nominal>
-        <lifetime>21800</lifetime>
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>2</min>		
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-        <category name="Warlords"/>
-		<usage name="Container"/>
-        <usage name="Alien"/>
-    </type>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 	<type name="Key_Nano">	//Don't edit! 
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
@@ -181,27 +176,14 @@
         <usage name="Alien"/>
     </type>
 	<type name="Yellow_Key"> /Don't edit!
-        <nominal>2</nominal>
-        <lifetime>21800</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-        <category name="Warlords"/>
-        <usage name="Alien"/>
-    </type>
-	  <type name="YRTSK_UFO_Crash">
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
-        <restock>3600</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 	<type name="Scout_Alien_1">
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
@@ -315,6 +297,16 @@
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
+		<type name="Land_UFO_v2">
+		<nominal>0</nominal>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+  </type>
     <type name="ShippingContainerKeys_Orange">
         <nominal>2</nominal>
         <lifetime>3600</lifetime>
@@ -395,10 +387,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 	    <type name="Banov_Falloutky">
-        <nominal>5</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -407,8 +399,6 @@
         <tag name="shelves"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
         <usage name="Lunapark"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
