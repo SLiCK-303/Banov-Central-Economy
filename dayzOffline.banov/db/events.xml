@@ -737,9 +737,9 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
-            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
-            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
+            <child lootmax="6" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
+            <child lootmax="6" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
+            <child lootmax="6" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
         </children>
     </event>
     <event name="StaticAmbulance">
@@ -845,8 +845,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban1_police_DE"/>
-            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban2_police_DE"/>
+            <child lootmax="4" lootmin="3" max="4" min="4" type="Land_Wreck_sed01_aban1_police_DE"/>
+            <child lootmax="4" lootmin="3" max="4" min="4" type="Land_Wreck_sed01_aban2_police_DE"/>
             <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed02_aban1_Police_DE"/>
             <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed02_aban2_Police_DE"/>
         </children>
@@ -870,7 +870,7 @@
         </children>
     </event>
     <event name="StaticTrain">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <min>1</min>
         <max>0</max>
         <lifetime>5400</lifetime>
@@ -900,7 +900,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="Land_UFO_v2"/>		<!-- update objectname -->
+            <child lootmax="7" lootmin="5" max="3" min="1" type="Land_UFO_v2"/>		<!-- update objectname -->
         </children>
     </event>
     <event name="StaticHeliCrash">
@@ -1016,7 +1016,7 @@
         </children>
     </event>
     <event name="TrajectoryStones">
-        <nominal>100</nominal>
+        <nominal>30</nominal>
         <min>1</min>
         <max>2</max>
         <lifetime>180</lifetime>
@@ -1039,9 +1039,9 @@
   ==============================================
   -->
     <event name="VehicleBoat">
-        <nominal>22</nominal>
-        <min>18</min>
-        <max>24</max>
+        <nominal>15</nominal>
+        <min>5</min>
+        <max>8</max>
         <lifetime>600</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
